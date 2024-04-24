@@ -1,0 +1,20 @@
+.section_three button{
+    background-color: #1571d315;
+    color: #1572D3;
+}
+
+.card_3 div:nth-child(1){
+    width: 4rem;
+    height: 4rem;
+    background-color: #ECF5FF;
+    border-radius: 15px;
+}
+
+.card_3 div:nth-child(1) img{
+    width: 50%;
+    object-fit: contain;
+}
+
+.card_3 div:nth-child(2) p{
+    font-size: 0.9rem;
+}
