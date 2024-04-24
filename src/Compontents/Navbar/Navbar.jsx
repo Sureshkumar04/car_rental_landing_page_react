@@ -4,7 +4,7 @@ import logo from 'F:/React Project/car_rental/src/assests/Logo.png'
 
 export const Navbar = () => {
     return (
-        <nav className="navbar navbar-expand-lg mt-3 fixed-top">
+        <nav className="navbar navbar-expand-lg mt-0 mt-md-3 fixed-top">
             <div className="container">
                 <img src={logo} alt="" />
                 <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
