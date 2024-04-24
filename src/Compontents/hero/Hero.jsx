@@ -7,8 +7,8 @@ import mark from '../../assests/home/Vector 1.png'
 
 export const Hero = () => {
     return (
-        <>
-            <section className='full-height my-5 pt-5 my-md-0 pt-md-0 position-relative'>
+        <div>
+            <section className=' hero full-height my-5 pt-5 my-md-0 pt-md-0 position-relative'>
                 <div className="row row-cols-1 row-cols-md-2 full-height g-0 align-items-center justify-content-center">
                     <div className='col align-self-center'>
                         <h1 className='mb-3 display-5 display-md-4 fw-semibold'>Find,book and rent a car <span className='position-relative'>Easily <img src={mark} className='position-absolute  top-50 pt-3 end-0 img-fluid' style={{ width: '100%' }} alt="" /></span></h1>
@@ -49,7 +49,7 @@ export const Hero = () => {
 
                 </div>
             </section>
-            <div className="row container gy-4 d-flex d-lg-none position-absolute mobile">
+            <div className="row container gy-4 d-flex d-lg-none position-relative mobile">
                 <div className="col-12 d-flex align-items-center border-bottom justify-content-center">
                     <i class="fa-solid fa-location-dot fs-2 me-3"></i>
                     <div>
@@ -76,6 +76,6 @@ export const Hero = () => {
                 </div>
             </div>
             
-        </>
+        </div>
       )
 }

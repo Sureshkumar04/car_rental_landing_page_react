@@ -1,0 +1,33 @@
+.sectiontwo{
+    display: grid;
+    place-content: center;
+}
+
+.how-it-works{
+    max-width: 270px;
+}
+
+
+
+.how-it-works p{
+    font-size: small;
+    width: 70%;
+}
+
+.imgwrapper{
+    width: 5rem;
+    height: 5rem;
+    background-color: #ECF5FF;
+}
+
+.imgwrapper img{
+    width: 60%;
+    object-fit: contain;
+}
+
+.sectiontwo button{
+    background-color: #1571d315;
+    color: #1572D3;
+}
+
+
