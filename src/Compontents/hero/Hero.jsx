@@ -16,8 +16,8 @@ export const Hero = () => {
                         <img className='mb-4' src={Google} alt="" />
                     </div>
                     <div className='col align-self-end position-relative '>
-                        <img src={carback} className=' img-fluid' alt="" />
-                        <img src={Car} className=' img-fluid position-absolute bottom-0 mb-5 pb-5 mb-md-5 pb-md-0 end-0' alt="" />
+                        <img src={carback} className='hero_back_img img-fluid' alt="" />
+                        <img src={Car} className='hero_back_main_img img-fluid position-absolute bottom-0 mb-5 pb-5 mb-md-5 pb-md-0 end-0' alt="" />
                     </div>
                 </div>
                 <div className="location justify-content-between row position-absolute bottom-0 mb-5 py-2 rounded d-none d-lg-flex">

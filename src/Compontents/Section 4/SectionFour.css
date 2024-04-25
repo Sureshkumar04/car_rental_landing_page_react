@@ -1,0 +1,30 @@
+.section-4 button{
+    background-color: #1571d315;
+    color: #1572D3;
+}
+
+.car-card-wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.car-card{
+   
+    box-shadow: 2px 2px 12px 1px rgba(0, 0, 0, 0.13);
+   
+}
+
+.car-card:hover {
+    outline: 1px solid #1572D3 ;
+    transition: 0s;
+}
+
+.car-card:hover .car-wrapper img{
+    transform: scale(1.1);
+}
+
+.popular-cars-container{
+    align-items: center;
+    justify-content: center;
+}

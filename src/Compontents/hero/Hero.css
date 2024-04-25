@@ -15,13 +15,13 @@ span{
     margin-left: 10vw;
 }
 
-.row div:nth-child(2) img:nth-child(1){
+.hero_back_img{
     max-height: 100vh;
     object-fit: contain;
     float: right;
 }
 
-.row div:nth-child(2) img:nth-child(2){
+.hero_back_main_img{
     width: 100%;
 }
 
