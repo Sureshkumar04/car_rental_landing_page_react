@@ -47,7 +47,7 @@ export const CarCards = ({ car, name, rating, reviews, Passagers, door, price })
                     <h6 className='m-0 fw-semibold'>${price}<span className='text-secondary fw-light'>/day</span></h6>
                 </div>
                 <div className='text-center'>
-                    <a className='btn btn-primary mt-3 mx-auto'>Rent Now <i className="fa-solid fa-arrow-right"></i></a>
+                    <div className='btn btn-primary mt-3 mx-auto'>Rent Now <i className="fa-solid fa-arrow-right"></i></div>
                 </div>
             </div>
         </div>
