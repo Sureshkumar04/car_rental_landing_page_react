@@ -12,8 +12,8 @@ export const SectionTwo = () => {
     return (
         <section className='full-height sectiontwo'>
             <div className="text-center">
-                <button className='btn mb-5'>How it Works</button>
-                <h2 className='mx-2'>Rent with following 3 working steps</h2>
+                <button className='btn mb-md-5 mb-2'>How it Works</button>
+                <h2 className='mx-3 mx-md-2'>Rent with following 3 working steps</h2>
                 <div className="row row-cols-1 g-2 gx-md-5 align-items-center justify-content-center mt-4">
                     <WorkingSteps className="col" image={image1} title="Choose location" para="Choose your and find your best car" />
                     <WorkingSteps className="col" image={image2} title="Pick-up date" para="Select your pick up date and time to book your car" />

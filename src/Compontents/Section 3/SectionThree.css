@@ -18,3 +18,9 @@
 .card_3 div:nth-child(2) p{
     font-size: 0.9rem;
 }
+
+@media screen and (max-width: 400px) {
+    .section_three div:nth-child(1) img:nth-child(2){
+        width: 90%;
+    }
+}

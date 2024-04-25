@@ -19,16 +19,15 @@ const carddata =[
 
 export const SectionThree = () => {
     return (
-        <section className="full-height section_three row row-cols-1 me-md-5 pe-md-5">
+        <section className="full-height section_three row row-cols-1 row-cols-md-2 g-3 me-md-5 pe-md-5">
             <div className="left col position-relative">
                 <img src={back} alt="" className='img-fluid' style={{ height: '100%' }} />
-                <img src={car} className='position-absolute bottom-0 start-0 img-fluid' alt="" />
+                <img src={car} className='position-absolute bottom-0 start-0 img-fluid me-5' alt="" />
             </div>
             <div className="right col d-flex flex-column align-items-center justify-content-center">
                 <button class="btn mb-3">WHY CHOOSE US</button>
-                <h2>We offer the best experience with our rental deals</h2>
-                <div className="card_container mt-3">
-
+                <h2 className='mx-3 mx-md-0 text-center'>We offer the best experience with our rental deals</h2>
+                <div className="card_container mt-3 mx-3 mx-md-0">
                     {carddata.map(cards =>(
                         <WhyChooseUs key={cards.id} image={cards.image} title={cards.title} para={cards.para} />
                     ))}

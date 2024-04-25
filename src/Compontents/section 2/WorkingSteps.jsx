@@ -9,7 +9,7 @@ export const WorkingSteps = ({
       <div className='imgwrapper d-flex align=items-center justify-content-center rounded mb-4'>
         <img src={image} alt="" />
       </div>
-      <h5 className='mb-3 fs-5'>{title}</h5>
+      <h5 className='mb-1 mb-md-3 fs-5'>{title}</h5>
       <p className='text-secondary'>{para}</p>
     </div>
   )
