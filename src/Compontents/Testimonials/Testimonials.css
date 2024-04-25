@@ -1,0 +1,59 @@
+.testimonials{
+    background-color: #F7FBFF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.testimonials button{
+    background-color: #1571d315;
+    color: #1572D3;
+}
+
+
+.comma{
+    position: absolute;
+    right: 5rem;
+    top: 0;
+    max-width: 13rem;
+}
+.comma-2{
+    position: absolute;
+    left: 5rem;
+    top: 5rem;
+    max-width: 13rem;
+}
+
+.star-rating{
+    width: 25%;
+}
+
+
+@media screen and (max-width: 746px) {
+    .testiomal-card{
+        width: 20rem;
+    }
+
+    .comma, .comma-2{
+        max-width: 8rem;
+    }
+}
+
+
+@media screen and (max-width: 600px) {
+    .comma{
+        position: absolute;
+        right: 1rem;
+        top: 0;
+        max-width: 6rem;
+    }
+    .comma-2{
+        position: absolute;
+        left: 1rem;
+        top: 1rem;
+        max-width: 6rem;
+    }
+}
+
