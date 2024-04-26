@@ -4,10 +4,11 @@ import Google from '../../assests/home/google play.png'
 import carback from '../../assests/home/Home left.png'
 import Car from '../../assests/home/car 2 1.png'
 import mark from '../../assests/home/Vector 1.png'
+import { Link, Button, Element, Events, animateScroll as scroll, scrollSpy } from 'react-scroll';
 
 export const Hero = () => {
     return (
-        <div>
+        <Element id='hero'>
             <section className=' hero full-height my-5 pt-5 my-md-0 pt-md-0 position-relative'>
                 <div className="row row-cols-1 row-cols-md-2 full-height g-0 align-items-center justify-content-center">
                     <div className='col align-self-center'>
@@ -76,6 +77,6 @@ export const Hero = () => {
                 </div>
             </div>
             
-        </div>
+        </Element>
       )
 }

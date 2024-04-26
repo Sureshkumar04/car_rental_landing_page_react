@@ -2,8 +2,9 @@
     --primary-color: #1572D3;
 }
 
-.nav-link:hover{
+.nav-link:hover, .navactive{
     color: var(--primary-color) !important;
+    cursor: pointer;
 }
 
 .white-bg{

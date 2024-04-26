@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import '../Navbar/Navbar.css'
 import logo from 'F:/React Project/car_rental/src/assests/Logo.png'
+import { Link, Button, Element, Events, animateScroll as scroll, scrollSpy } from 'react-scroll';
 
 export const Navbar = () => {
     const [scrollPosition, setScrollPosition] = useState(0);
@@ -31,16 +32,16 @@ export const Navbar = () => {
                 <div className="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul className="navbar-nav mx-auto align-items-center mb-2 mb-lg-0">
                         <li className="nav-item me-3">
-                            <button className="nav-link active" aria-current="page" >Become a renter</button>
+                            <Link activeClass='navactive' to='hero' spy={true} smooth={true} offset={0} duration={400} className="nav-link active">Become a renter</Link>
                         </li>
                         <li className="nav-item me-3">
-                            <button className="nav-link active" aria-current="page" >Rental deals</button>
+                            <Link activeClass='navactive' to='cars' spy={true} smooth={true} offset={0} duration={400} className="nav-link active" aria-current="page" >Rental deals</Link>
                         </li>
                         <li className="nav-item me-3">
-                            <button className="nav-link active" aria-current="page" >How it work</button>
+                            <Link activeClass='navactive' to='works' spy={true} smooth={true} offset={0} duration={400} className="nav-link active" aria-current="page" >How it work</Link>
                         </li>
                         <li className="nav-item me-3">
-                            <button className="nav-link active" aria-current="page" >Why choose us</button>
+                            <Link activeClass='navactive' to='choose' spy={true} smooth={true} offset={20} duration={400} className="nav-link active" aria-current="page" >Why choose us</Link>
                         </li>
 
                     </ul>

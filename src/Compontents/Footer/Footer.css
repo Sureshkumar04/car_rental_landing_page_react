@@ -20,6 +20,7 @@
     color: #D6D6D6;
     margin: 0;
     font-size: 0.8rem;
+    cursor: pointer;
 }
 
 
@@ -28,6 +29,11 @@
     color: #D6D6D6;
     font-size: 0.8rem;
     margin-bottom: 0.5rem;
+    cursor: pointer;
+}
+
+.footer-text-one:hover, .footer-items li:hover{
+    color: #8a8a8a;
 }
 
 .footer-heading{

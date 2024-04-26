@@ -5,11 +5,13 @@ import image1 from '../../assests/SectionTwo/location-tick.png'
 import image2 from '../../assests/SectionTwo/calendar.png'
 import image3 from '../../assests/SectionTwo/car.png'
 import image4 from '../../assests/SectionTwo/Frame 29.png'
+import { Link, Button, Element, Events, animateScroll as scroll, scrollSpy } from 'react-scroll';
 
 
 
 export const SectionTwo = () => {
     return (
+        <Element id='works'>   
         <section className='full-height sectiontwo'>
             <div className="text-center">
                 <button className='btn mb-md-5 mb-2'>How it Works</button>
@@ -26,5 +28,7 @@ export const SectionTwo = () => {
 
                 <img src={image4} className='mt-5 img-fluid' style={{width:'100vw'}} alt="" />
         </section>
+        </Element>
+      
     )
 }
