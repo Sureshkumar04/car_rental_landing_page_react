@@ -32,16 +32,16 @@ export const Navbar = () => {
                 <div className="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul className="navbar-nav mx-auto align-items-center mb-2 mb-lg-0">
                         <li className="nav-item me-3">
-                            <Link activeClass='navactive' to='hero' spy={true} smooth={true} offset={0} duration={400} className="nav-link active">Become a renter</Link>
+                            <Link activeClass='navactive' to='hero' spy={true} smooth={true} offset={0} duration={50}  className="nav-link active">Become a renter</Link>
                         </li>
                         <li className="nav-item me-3">
-                            <Link activeClass='navactive' to='cars' spy={true} smooth={true} offset={0} duration={400} className="nav-link active" aria-current="page" >Rental deals</Link>
+                            <Link activeClass='navactive' to='cars' spy={true} smooth={true} offset={0} duration={50} className="nav-link active" aria-current="page" >Rental deals</Link>
                         </li>
                         <li className="nav-item me-3">
-                            <Link activeClass='navactive' to='works' spy={true} smooth={true} offset={0} duration={400} className="nav-link active" aria-current="page" >How it work</Link>
+                            <Link activeClass='navactive' to='works' spy={true} smooth={true} offset={0} duration={50} className="nav-link active" aria-current="page" >How it work</Link>
                         </li>
                         <li className="nav-item me-3">
-                            <Link activeClass='navactive' to='choose' spy={true} smooth={true} offset={20} duration={400} className="nav-link active" aria-current="page" >Why choose us</Link>
+                            <Link activeClass='navactive' to='choose' spy={true} smooth={true} offset={20} duration={50} className="nav-link active" aria-current="page" >Why choose us</Link>
                         </li>
 
                     </ul>
