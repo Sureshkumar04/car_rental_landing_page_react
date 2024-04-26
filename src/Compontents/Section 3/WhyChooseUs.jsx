@@ -5,7 +5,7 @@ import "../Section 3/SectionThree.css"
 export const WhyChooseUs = ({image, title, para}) => {
   return (
     <div className='mb-4'>
-      <div className="card_3 d-flex align-items-center justify-content-center">
+      <div className="card_3 d-flex align-items-center">
         <div className="d-flex align-items-center justify-content-center">
           <img src={image} className="img-fluid" alt="..." />
         </div>

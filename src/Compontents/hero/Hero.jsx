@@ -11,8 +11,8 @@ export const Hero = () => {
             <section className=' hero full-height my-5 pt-5 my-md-0 pt-md-0 position-relative'>
                 <div className="row row-cols-1 row-cols-md-2 full-height g-0 align-items-center justify-content-center">
                     <div className='col align-self-center'>
-                        <h1 className='mb-3 display-5 display-md-4 fw-semibold'>Find,book and rent a car <span className='position-relative'>Easily <img src={mark} className='position-absolute  top-50 pt-3 end-0 img-fluid' style={{ width: '100%' }} alt="" /></span></h1>
-                        <p className='mb-4'>Get a car wherever and whenever you need it with your IOS and Android device.</p>
+                        <h1 className='mb-3 display-5 display-md-4 fw-semibold hero-title'>Find,book and rent a car <span className='position-relative'>Easily <img src={mark} className='position-absolute  top-50 pt-3 end-0 img-fluid' style={{ width: '100%' }} alt="" /></span></h1>
+                        <p className='mb-4 hero-para'>Get a car wherever and whenever you need it with your IOS and Android device.</p>
                         <img className='mb-4' src={Google} alt="" />
                     </div>
                     <div className='col align-self-end position-relative '>

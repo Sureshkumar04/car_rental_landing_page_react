@@ -1,10 +1,28 @@
-import React from 'react'
+import React, { useState, useEffect } from 'react';
 import '../Navbar/Navbar.css'
 import logo from 'F:/React Project/car_rental/src/assests/Logo.png'
 
 export const Navbar = () => {
+    const [scrollPosition, setScrollPosition] = useState(0);
+
+    useEffect(() => {
+        const handleScroll = () => {
+            const position = window.scrollY;
+            setScrollPosition(position);
+        };
+
+        window.addEventListener('scroll', handleScroll, { passive: true });
+
+        return () => {
+            window.removeEventListener('scroll', handleScroll);
+        };
+    }, []);
+
+
+
+
     return (
-        <nav className="navbar navbar-expand-lg mt-0 mt-md-3 fixed-top">
+        <nav className={scrollPosition > 100 ? 'navbar navbar-expand-lg mt-0 mt-md-0 fixed-top white-bg' : 'navbar navbar-expand-lg mt-0 mt-md-3 fixed-top transparent-bg'}>
             <div className="container">
                 <img src={logo} alt="" />
                 <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -24,7 +42,7 @@ export const Navbar = () => {
                         <li className="nav-item me-3">
                             <button className="nav-link active" aria-current="page" >Why choose us</button>
                         </li>
-                        
+
                     </ul>
                     <div className='text-center'>
                         <button className='btn'>Sign In</button>

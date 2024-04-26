@@ -1,0 +1,41 @@
+.download-app-iphone-cantainer{
+    height: 50vh;
+    overflow: hidden;
+}
+
+.download-app-logo{
+   background: url(../../assests/DownloadApp/logo.png);
+   background-position: -12rem 0;
+   background-size: 50vw;
+   background-repeat: no-repeat;
+}
+
+.download-app-iphone{
+    height: 100vh;
+}
+
+.download-app-left{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 50vh;
+    text-align: left;
+}
+
+.download-app-left button{
+    background-color: #1571d315;
+    color: #1572D3;
+}
+
+.download-title{
+    width: 25rem;
+}
+
+
+@media screen and (max-width: 425px) {
+    .download-title{
+        width: 80vw;
+        font-size: 1.5rem;
+    }
+}

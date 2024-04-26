@@ -1,3 +1,5 @@
+import { DownloadApp } from "./Compontents/DownloadApp/DownloadApp";
+import { Footer } from "./Compontents/Footer/Footer";
 import { Navbar } from "./Compontents/Navbar/Navbar";
 import { SectionThree } from "./Compontents/Section 3/SectionThree";
 import { SectionFour } from "./Compontents/Section 4/SectionFour";
@@ -15,6 +17,8 @@ function App() {
     <SectionThree/>
     <SectionFour/>
     <Testimonials/>
+    <DownloadApp/>
+    <Footer/>
     </>
   );
 }

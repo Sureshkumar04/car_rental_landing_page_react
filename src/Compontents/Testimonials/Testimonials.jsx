@@ -23,7 +23,7 @@ export const Testimonials = () => {
     const [carouselInterval, setCarouselInterval] = useState(5000);
 
     return (
-        <div className='testimonials mt-5 full-height'>
+        <div className='testimonials mt-5 full-height p-5 p-md-0'>
             <img src={comma} className='comma' alt="" />
             <img src={commaTwo} className='comma-2' alt="" />
             <button className="btn mb-1">Testimonials</button>

@@ -5,3 +5,8 @@
 .nav-link:hover{
     color: var(--primary-color) !important;
 }
+
+.white-bg{
+    background: white;
+    transition: 0s;
+}
