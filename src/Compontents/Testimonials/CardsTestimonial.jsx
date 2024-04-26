@@ -5,7 +5,7 @@ import star from '../../assests/Testimonials/star.png'
 export const CardsTestimonial = ({person, content, name}) => {
     return (
         <div>
-            <div className="card testiomal-card mb-3" style={{ maxWidth: '700px', minWidth: '200px' }}>
+            <div className="card testiomal-card mb-3" style={{ maxWidth: '700px' }}>
                 <div className="row g-0">
                     <div className="col-md-4" style={{maxHeight: '350px', border: 'soild'}}>
                         <img src={person} className="img-fluid rounded-start" style={{maxHeight: '100%', overflow: 'hidden'}} alt="..." />
