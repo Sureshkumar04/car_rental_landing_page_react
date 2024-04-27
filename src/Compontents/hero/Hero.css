@@ -15,15 +15,21 @@ span{
     margin-left: 10vw;
 }
 
-.hero_back_img{
-    max-height: 100vh;
-    object-fit: contain;
-    float: right;
-}
-
-.hero_back_main_img{
+.hero_back_main_img::after{
+    content: '';
+    position: absolute;
+    top: -41.5%;
+    right: 0;
     width: 100%;
+    z-index: -1;
+    height: 143%;
+    background-image: url(../../assests/home/Home\ left.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: right;
 }
+    
+
 
 
 .hero-title, .hero-para{
