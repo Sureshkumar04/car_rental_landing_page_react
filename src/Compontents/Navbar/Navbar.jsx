@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import '../Navbar/Navbar.css'
 import logo from '../../assests/Logo.png'
-import { Link, Button, Element, Events, animateScroll as scroll, scrollSpy } from 'react-scroll';
+import {Link} from 'react-scroll';
 
 export const Navbar = () => {
     const [scrollPosition, setScrollPosition] = useState(0);
