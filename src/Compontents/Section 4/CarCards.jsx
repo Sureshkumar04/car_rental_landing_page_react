@@ -5,7 +5,7 @@ import Gear from '../../assests/Section 4/Gear.png';
 import AC from '../../assests/Section 4/AC.png';
 import Door from '../../assests/Section 4/Door.png';
 import '../Section 4/SectionFour.css';
-import { delay, motion } from 'framer-motion';
+import { motion } from 'framer-motion';
 
 export const CarCards = ({ car, name, rating, reviews, Passagers, door, price, delay }) => { // Destructuring props object
     return (
