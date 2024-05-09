@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import '../Navbar/Navbar.css'
-import logo from 'F:/React Project/car_rental/src/assests/Logo.png'
+import logo from '../../assests/Logo.png'
 import { Link, Button, Element, Events, animateScroll as scroll, scrollSpy } from 'react-scroll';
 
 export const Navbar = () => {
