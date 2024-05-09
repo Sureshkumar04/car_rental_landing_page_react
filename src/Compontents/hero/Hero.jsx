@@ -10,9 +10,9 @@ import { motion } from 'framer-motion'
 export const Hero = () => {
     return (
         <Element id='hero'>
-            <section className=' hero full-height mx-3 mx-md-auto my-4 my-md-0 pt-md-0 position-relative'>
+            <section className=' hero full-height mx-md-auto my-4 my-md-0 pt-md-0 position-relative'>
                 <div className="row row-cols-1 row-cols-md-2 full-height g-0 align-items-center justify-content-center">
-                    <div className='col align-self-center'>
+                    <div className='col px-4 px-md-0 align-self-center'>
                         <motion.h1 initial={{ x: -100, opacity: 0 }} whileInView={{ x: 0, opacity: 1 }} transition={{
                             x: { type: 'spring', stiffness: 70 },
                             ease: 'easeIn'
@@ -34,7 +34,7 @@ export const Hero = () => {
                             }}
                             className='mb-4' src={Google} alt="" />
                     </div>
-                    <div className='col align-self-end position-relative hero_back_main_img' >
+                    <div className='col ps-3 ps-md-0 align-self-end position-relative hero_back_main_img' >
                         <motion.img
                             initial={{ x: 200, opacity: 0 }} whileInView={{ x: 0, opacity: 1 }} transition={{
                                 x: { type: 'spring', stiffness: 90 },

@@ -58,13 +58,10 @@ input{
 
 
 
-@media screen and (max-width: 385px) {
-    .hero{  
-        margin-left: 4vw;
-    } 
+@media screen and (max-width: 400px) {
 
     input{
-        width: 7rem;
+        width: 30vw;
     }
 
     nav{
