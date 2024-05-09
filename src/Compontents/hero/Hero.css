@@ -11,9 +11,7 @@ span{
     color: var(--primary-color);
 }
 
-.hero{  
-    margin-left: 10vw;
-}
+
 
 .hero_back_main_img::after{
     content: '';
@@ -49,6 +47,12 @@ input{
 
 .location .col{
     border-right: 1px solid #14141449;
+}
+
+@media screen and (min-width: 785px){
+    .hero{  
+        margin-left: 10vw !important;
+    }
 }
 
 
