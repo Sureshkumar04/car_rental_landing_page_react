@@ -1,7 +1,7 @@
 import React from 'react'
 import carddata from './CarsData.js'
 import "../Section 4/SectionFour.css"
-import { Link, Button, Element, Events, animateScroll as scroll, scrollSpy } from 'react-scroll';
+import { Element } from 'react-scroll';
 import { motion } from 'framer-motion';
 
 import "../Section 4/SectionFour.css"
