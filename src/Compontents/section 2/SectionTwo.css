@@ -30,4 +30,10 @@
     color: #1572D3;
 }
 
+@media screen and (max-width: 400px) {
+    .how-it-works p{
+        width: 100%;
+    }
+}
+
 

@@ -10,7 +10,8 @@
 }
 
 .car-card{
-   
+   width: 18rem;
+   border: 0;
     box-shadow: 2px 2px 12px 1px rgba(0, 0, 0, 0.13);
    
 }
@@ -28,4 +29,10 @@
 .popular-cars-container{
     align-items: center;
     justify-content: center;
+}
+
+@media screen and (max-width:400px) {
+    .car-card{
+        width: 90vw;
+    }
 }

@@ -34,7 +34,7 @@ export const SectionThree = () => {
                         }}
                         src={car} className='position-absolute bottom-0 start-0 img-fluid me-5' alt="" />
                 </div>
-                <div className="right col d-flex flex-column align-items-center justify-content-center">
+                <div className="right mt-5 mt-lg-2 col d-flex flex-column align-items-center justify-content-center">
                     <motion.button 
                      initial={{ y: 80, opacity: 0 }} whileInView={{ y: 0, opacity: 1 }} transition={{
 

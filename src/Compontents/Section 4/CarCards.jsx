@@ -5,7 +5,7 @@ import Gear from '../../assests/Section 4/Gear.png';
 import AC from '../../assests/Section 4/AC.png';
 import Door from '../../assests/Section 4/Door.png';
 import '../Section 4/SectionFour.css';
-import { motion } from 'framer-motion';
+import { delay, motion } from 'framer-motion';
 
 export const CarCards = ({ car, name, rating, reviews, Passagers, door, price, delay }) => { // Destructuring props object
     return (
@@ -21,7 +21,7 @@ export const CarCards = ({ car, name, rating, reviews, Passagers, door, price, d
         }}
         
         className="col car-card-wrapper">
-            <div className="card rounded car-card" style={{ width: '18rem', border: 0 }}>
+            <div className="card rounded car-card">
             <div className="car-wrapper d-flex align-items-end " style={{ width: "100%", height: '12rem' }}>
                 <img src={car} className="card-img-center mx-auto" alt="..." />
             </div>
