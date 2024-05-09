@@ -5,7 +5,7 @@ import image1 from '../../assests/SectionTwo/location-tick.png'
 import image2 from '../../assests/SectionTwo/calendar.png'
 import image3 from '../../assests/SectionTwo/car.png'
 import image4 from '../../assests/SectionTwo/Frame 29.png'
-import { Link, Button, Element, Events, animateScroll as scroll, scrollSpy } from 'react-scroll';
+import { Element } from 'react-scroll';
 import { motion } from 'framer-motion'
 
 
