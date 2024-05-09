@@ -7,8 +7,8 @@ import image1 from "../../assests/SectionThree/wallet.png"
 import image2 from "../../assests/SectionThree/user-tick.png"
 import image3 from "../../assests/SectionThree/24-support.png"
 import image4 from "../../assests/SectionThree/messages-2.png"
-import { Link, Button, Element, Events, animateScroll as scroll, scrollSpy } from 'react-scroll';
-import { delay, motion } from 'framer-motion'
+import { Element } from 'react-scroll';
+import { motion } from 'framer-motion'
 
 
 
