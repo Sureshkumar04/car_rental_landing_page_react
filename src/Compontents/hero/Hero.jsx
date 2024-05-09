@@ -10,7 +10,7 @@ import { motion } from 'framer-motion'
 export const Hero = () => {
     return (
         <Element id='hero'>
-            <section className=' hero full-height my-5 pt-5 my-md-0 pt-md-0 position-relative'>
+            <section className=' hero full-height my-2 pt-5 my-md-0 pt-md-0 position-relative'>
                 <div className="row row-cols-1 row-cols-md-2 full-height g-0 align-items-center justify-content-center">
                     <div className='col align-self-center'>
                         <motion.h1 initial={{ x: -100, opacity: 0 }} whileInView={{ x: 0, opacity: 1 }} transition={{
