@@ -5,11 +5,22 @@ import Gear from '../../assests/Section 4/Gear.png';
 import AC from '../../assests/Section 4/AC.png';
 import Door from '../../assests/Section 4/Door.png';
 import '../Section 4/SectionFour.css';
+import { delay, motion } from 'framer-motion';
 
-export const CarCards = ({ car, name, rating, reviews, Passagers, door, price }) => { // Destructuring props object
+export const CarCards = ({ car, name, rating, reviews, Passagers, door, price, delay }) => { // Destructuring props object
     return (
 
-        <div className="col car-card-wrapper">
+        <motion.div 
+        initial={{scale:0, y: 100}}
+        whileInView={{scale:1, y:0}}
+        transition={{
+            delay: delay,
+            type:'spring', 
+            stiffness: 70,
+            duration:0.5
+        }}
+        
+        className="col car-card-wrapper">
             <div className="card rounded car-card" style={{ width: '18rem', border: 0 }}>
             <div className="car-wrapper d-flex align-items-end " style={{ width: "100%", height: '12rem' }}>
                 <img src={car} className="card-img-center mx-auto" alt="..." />
@@ -51,7 +62,7 @@ export const CarCards = ({ car, name, rating, reviews, Passagers, door, price })
                 </div>
             </div>
         </div>
-        </div>
+        </motion.div>
         
     );
 };

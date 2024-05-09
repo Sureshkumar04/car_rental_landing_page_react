@@ -12,7 +12,8 @@ const data = [
         "reviews": "2.436",
         "Passagers": "4",
         "door": "4",
-        "price": "1,800"
+        "price": "1,800",
+        'delay': 0.2
     },
     {
         "id": 2,
@@ -22,7 +23,8 @@ const data = [
         "reviews": "1.936",
         "Passagers": "2",
         "door": "2",
-        "price": "2,100"
+        "price": "2,100",
+        'delay': 0.4
     },
     {
         "id": 3,
@@ -32,7 +34,8 @@ const data = [
         "reviews": "2.036",
         "Passagers": "4",
         "door": "4",
-        "price": "1,600"
+        "price": "1,600",
+        'delay': 0.6
     },
     {
         "id": 4,
@@ -42,7 +45,8 @@ const data = [
         "reviews": "2.236",
         "Passagers": "2",
         "door": "2",
-        "price": "2,300"
+        "price": "2,300",
+        'delay': 0.8
     }
 ];
 

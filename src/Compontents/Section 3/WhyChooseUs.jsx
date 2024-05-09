@@ -1,10 +1,17 @@
 import React from 'react'
 import "../Section 3/SectionThree.css"
+import { motion } from 'framer-motion'
 
 
-export const WhyChooseUs = ({image, title, para}) => {
+export const WhyChooseUs = ({ image, title, para, delay }) => {
   return (
-    <div className='mb-4'>
+    <motion.div
+      initial={{ y: 100, opacity: 0 }} whileInView={{ y: 0, opacity: 1 }} transition={{
+        delay: delay,
+        y:{type:'spring', stiffness: 70},
+        ease: 'easeInOut'
+      }}
+      className='mb-4'>
       <div className="card_3 d-flex align-items-center">
         <div className="d-flex align-items-center justify-content-center">
           <img src={image} className="img-fluid" alt="..." />
@@ -14,6 +21,6 @@ export const WhyChooseUs = ({image, title, para}) => {
           <p className='mb-0 text-secondary'>{para}</p>
         </div>
       </div>
-    </div>
+    </motion.div>
   )
 }
